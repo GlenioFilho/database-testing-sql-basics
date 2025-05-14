@@ -1,6 +1,8 @@
 O console
 Tarefa 1
+
 1. Insira o comando ou a sequência de comandos que retornou os logs necessários:
+
 # Lista os arquivos na pasta de logs para verificar o que está disponível.
 ls logs/2019/12
 
@@ -10,13 +12,16 @@ cd logs/2019/12
 # Buscar todas as solicitações que vieram de um IP que começa com "233.201."
 grep "^233\.201\." *
 
+
 2. Mostre os resultados da sua busca:
+
 apache_2019-12-18.txt:233.201.188.154 - - [18/12/2019:21:46:01 +0000] "DELETE /events HTTP/1.1" 403 3971
 
 apache_2019-12-21.txt:233.201.182.9 - - [21/12/2019:21:56:20 +0000] "PATCH /users HTTP/1.1" 400 4118
 
 
 Tarefa 2
+
 1. Insira os comandos usados para criar os diretórios /bug1 e /events: 
 mkdir ~/bug1              # Cria o diretório bug1 no diretório de usuário
 mkdir ~/bug1/events        # Cria o diretório events dentro de bug1
@@ -78,13 +83,16 @@ morty@cnt-76fa21c1-eeeb-4dd7-a2eb-64d12f2dddf5:~/logs/2019/12$ tail -3 ~/bug1/ev
 
 
 Bases de dados
+
 Tarefa 1
+
 Por favor, especifique o número de carros: digite sua resposta aqui
 A consulta que você usou para encontrar o número de carros:
 
 SELECT COUNT(*)as cnt FROM cabs;
 
 Tarefa 2
+
 Lista de empresas com menos de 100 carros:
  cnt |                 company_name
 -----+----------------------------------------------
@@ -131,6 +139,7 @@ HAVING COUNT(*) < 100
 ORDER BY cnt DESC;
 
 Tarefa 3
+
 A tabela com a previsão do tempo para o período especificado.
 
  2017-11-05 00:00:00 | GOOD
@@ -175,6 +184,7 @@ WHERE
 
 
 Tarefa 4
+
 A tabela com o número de corridas de cada empresa de táxi no período especificado.
 
                  company_name                 | trips_amount
