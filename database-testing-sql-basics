@@ -1,0 +1,50 @@
+# QA Sprint 6 – Database Basics
+
+**Tester:** Glenio Filho  
+**Projeto:** Fundamentos de Banco de Dados e SQL  
+**Ambiente:** Console + Servidor de Banco Local/Remoto
+
+---
+
+## 🛠️ Descrição do Projeto
+
+No Sprint 6, o foco foi aprender os fundamentos de **bancos de dados relacionais** e como interagir com eles usando **SQL**. Também exploramos o uso do **terminal/console** para manipular arquivos, acessar servidores e gerenciar scripts.
+
+O projeto final envolveu a execução de consultas SQL reais, testes de integridade de dados e simulação de tarefas comuns em QA envolvendo banco de dados.
+
+---
+
+## 🎯 Objetivos
+
+- Aprender os comandos básicos do terminal (CLI)
+- Entender como conectar e navegar em servidores via linha de comando
+- Executar consultas SQL: `SELECT`, `INSERT`, `UPDATE`, `DELETE`
+- Trabalhar com `JOINs` e relacionamentos entre tabelas
+- Usar funções agregadas: `COUNT`, `AVG`, `SUM`
+- Gerenciar backups (dump) e restauração de banco
+- Aplicar SQL em contexto de testes (validação, busca, verificação)
+
+---
+
+## 🚀 Ferramentas Utilizadas
+
+- **Terminal / CLI** – para navegação e execução de scripts
+- **SQL** – linguagem de consulta e manipulação de dados
+- **Servidor de Banco de Dados** – local ou remoto para testes
+- **Editor de texto / script** – para armazenar comandos
+
+---
+
+## 📂 Arquivos no Repositório
+
+| Arquivo | Descrição |
+|--------|-----------|
+| `sql-queries.md` | Consultas SQL usadas durante o sprint |
+| `test-scenarios.md` | Casos de teste com foco em dados e tabelas |
+| `joins-examples.md` | Exemplos práticos de INNER, LEFT e RIGHT JOINs |
+| `database-dump-guide.md` | Como fazer backup e restore de banco (opcional) |
+| `cli-commands.md` | Comandos de terminal usados na prática com SQL |
+
+---
+
+🧪 Criado por Glenio Filho – Sprint 6 – QA Training
